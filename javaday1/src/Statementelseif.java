@@ -4,17 +4,15 @@ public class Statementelseif {
        int a;
        Scanner s = new Scanner(System.in);
        a = s.nextInt();
-       if(a<5){
-        System.out.println("Prashanth");
+       if(a<18){
+        System.out.println("Minnor");
        }
-       else if (a>5){
-        System.out.println("Pavan");
+       else if (a>18 || a<30 ){
+        System.out.println("Major");
        }
        else{
-        System.out.println("None");
+        System.out.println("Senior citizon");
        }
-
-
     }
     
 }

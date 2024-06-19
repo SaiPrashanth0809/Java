@@ -15,12 +15,7 @@ public class Studentdata {
         System.out.println("Fail");
        }
        else if(maths > 35 && hindi > 35 && histroy > 35){
-        if
-        {
-            System.out.println(maths);
-            System.out.println(hindi);
-            System.out.println(histroy);
-        }
+
         System.out.println(maths+hindi+histroy);
        }
        else if(maths > 35 || hindi > 35 && histroy > 35){

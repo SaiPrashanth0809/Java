@@ -10,7 +10,7 @@ public class Studentdata {
        int hindi = s.nextInt();
        System.out.println("Marks of histroy");
        int histroy = s.nextInt();
-       if(maths < 35 && hindi < 35 && histroy < 35){
+      if(maths < 35 && hindi < 35 && histroy < 35){
        
         System.out.println("Fail");
        }

@@ -1,10 +1,10 @@
-import java.util.Scanner;
-public class Case {
+public class Loop {
     public static void main(String[] args) {
-      System.out.println("Enter your no : ");
-        Scanner s = new Scanner(System.in);
-        int id = s.nextInt();
-        switch (id) {
+        int i;
+        for(i=0;i<5;i++){
+            System.out.println("Enter the id ");
+
+        switch (i) {
               case 1: 
                 System.out.println("Sunny");
                 break;
@@ -30,7 +30,7 @@ public class Case {
                 System.out.println("NO further Students");
                 break;
         }
-        s.close();
+        }
     }
     
 }

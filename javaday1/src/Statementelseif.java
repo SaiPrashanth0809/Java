@@ -13,6 +13,8 @@ public class Statementelseif {
        else{
         System.out.println("Senior citizon");
        }
+       s.close();
+
     }
     
 }

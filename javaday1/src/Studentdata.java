@@ -22,5 +22,6 @@ public class Studentdata {
         
         System.out.println("Fail");
        }
+       s.close();
     }
 }

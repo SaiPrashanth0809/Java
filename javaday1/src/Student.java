@@ -9,9 +9,7 @@ public class Student {
         id = s.nextInt();
         name = s.nextLine();
         cgpa = s.nextFloat();
-        grade = s.
         System.out.println("my name is "+name);
-
     }
     
 }

@@ -1,17 +1,18 @@
 import java.util.*;
 public class Stringint {
+    int c=3;
     public static void main(String[] args) {
-        System.out.println("==============================");
-        Scanner sc = new Scanner(System.in);
-        String name = sc.next();
-        int i =  sc.nextInt();
-        for( i=0;i>3;i++){
-            if(){
-                
-            }
-            
-        }
+        Scanner sc= new Scanner(System.in);
+        Stringint b = new Stringint();
+        b.c=sc.nextInt();
+
+        Stringint si = new Stringint();
+        si.c=sc.nextInt();
+
+        Stringint s = new Stringint();
+        System.out.println(s.c);
         sc.close();
+
     }
     
 }
